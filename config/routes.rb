@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
 resources :articles
 
-
+get '/' => 'pages#index'
+get '/about' => 'pages#about'
 
 end
