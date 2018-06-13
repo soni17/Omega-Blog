@@ -6,4 +6,7 @@ resources :articles
 root 'pages#index'
 get '/about' => 'pages#about'
 
+get 'signup', to: 'users#new'
+post 'users', to: 'users#create'
+
 end
