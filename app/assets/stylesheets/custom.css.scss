@@ -1,5 +1,7 @@
 $navbar-default-bg: black;
-
+$navbar-default-link-active-bg: grey;
+$navbar-default-link-color: white;
+$navbar-default-link-hover-bg: lightgrey;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
